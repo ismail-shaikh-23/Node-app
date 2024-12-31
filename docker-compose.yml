@@ -3,6 +3,6 @@ services:
   web:
     build:
       context: .
-    port:
+    ports:
       - "8000:8000"
         
